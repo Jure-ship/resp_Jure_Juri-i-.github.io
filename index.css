@@ -72,18 +72,24 @@ body {
 }
 .box_1 .slika2 {
     position: absolute;
+    display:flex;
+    right:auto;
     left: -1%;
     bottom: 20%;
 }
 .slika3 {
     align-self: baseline;
     position: absolute;
+    display:flex;
+    left:auto;
     right: 0;
     top: 0;
     z-index: 1;
 }
 .box_1 .slika6 {
     position: absolute;
+    display:flex;
+    right:auto;
     top: 14%;
     left: 46%;
 }
@@ -254,6 +260,7 @@ font-style: normal;
         left: 0;
         margin-top: 570px;
         margin-left: -30%;
+        max-width:560px;
     }
     .slika3 {
         width: 350px;
@@ -335,6 +342,8 @@ font-style: normal;
     .slika7 {
         position: absolute;
         display: flex;
+        left:0;
+        right:0;
         padding: auto;
         top: 150px;
         align-items: center;
@@ -343,7 +352,7 @@ font-style: normal;
         position: absolute;
         display: flex;
         width: 90%;
-        padding: 0 50px 0 40px;
+        padding: 0 3% 0 40px;
         top: 750px;
         align-items: center;
         font-style: normal;
@@ -355,6 +364,7 @@ font-style: normal;
     .box_1 .slika6 {
         position: absolute;
         left: 35%;
+        display: flex;
         margin-top: 400px;
         z-index: 3;
     }
@@ -364,7 +374,7 @@ font-style: normal;
     .box_2 .dvije_slike .slika5 {
         position: relative;
         display: flex;
-        top: 950px;
+        top: 1020px;
        left: 17%;
     }
 }
@@ -403,8 +413,11 @@ font-style: normal;
             position: relative;
             flex:2;
             z-index: 2;
+            display: flex;
             left:0;
+            right:0;
             top: 1200px;
+            max-width:768px;
             margin-bottom: 100px;
     } 
     .sidenav {
@@ -506,6 +519,8 @@ font-style: normal;
     .slika11 {
         position: absolute;
         display: flex;
+        left:0;
+        right:0;
         left: -24%;
         right: auto;
         top:110px;  
